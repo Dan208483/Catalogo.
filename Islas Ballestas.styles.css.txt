@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #ffe1e1;
+  color: #333;
+  padding: 1rem;
+}
+
+/* Encabezado */
+header {
+  background-color: #114163;
+  color: #ffe2e2;
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Tarjeta */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #114163;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Botones */
+.btn {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+/* Iframe */
+iframe {
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  background-color: #0077cc;
+  color: white;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card h2 {
+    font-size: 1.5rem;
+  }
+}
