@@ -20,15 +20,6 @@ header {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.container {
-  display: grid;
   grid-template-columns: repeat(4, 1fr); 
   gap: 20px; 
   padding: 20px;
@@ -89,5 +80,6 @@ footer {
     font-size: 1.2rem;
   }
 }
+
 
 
